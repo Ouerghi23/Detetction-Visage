@@ -1,0 +1,10 @@
+flask
+opencv-python
+deepface
+firebase-admin
+fire
+flask-cors
+gunicorn
+keras
+retina-face
+tensorflow
