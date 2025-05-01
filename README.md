@@ -2,6 +2,8 @@
 
 Ce projet Python utilise **OpenCV** et **DeepFace** pour détecter et reconnaître les visages en temps réel via la webcam, puis enregistre la présence des personnes reconnues dans **Firebase Firestore**.
 
+---
+
 ## 🚀 Fonctionnalités
 
 - 🔍 Détection et reconnaissance faciale avec `DeepFace`
@@ -9,10 +11,26 @@ Ce projet Python utilise **OpenCV** et **DeepFace** pour détecter et reconnaît
 - 🗂 Mise à jour de la présence dans **Google Firestore**
 - 🎥 Affichage en direct via webcam avec annotation du nom
 
+---
 
 ## ⚙️ Installation
 
 1. **Cloner le dépôt**
-```bash
-git clone  https://github.com/Ouerghi23/Detetction-Visage.git
-cd Detection-Visage
+   ```bash
+   git clone https://github.com/Ouerghi23/Detetction-Visage.git
+   cd Detetction-Visage
+2. **Installer les dépendances**
+   pip install -r requirements.txt
+3.**Préparer l’environnement**
+   Placer les images des visages connus dans le dossier visages/.
+   Ajouter votre fichier serviceAccount.json (Firebase Admin SDK) dans le dossier racine.
+4. **Exécution**
+   python detection.py
+Appuyez sur q pour quitter la caméra.
+## 🧪 Technologies utilisées
+Python 3
+OpenCV
+DeepFace
+Firebase Admin SDK
+Firestore
+NumPy
