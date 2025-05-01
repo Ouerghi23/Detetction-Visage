@@ -14,5 +14,5 @@ Ce projet Python utilise **OpenCV** et **DeepFace** pour détecter et reconnaît
 
 1. **Cloner le dépôt**
 ```bash
-git clone https://gitlab.com/ton_utilisateur/ton_projet.git
-cd ton_projet
+git clone  https://github.com/Ouerghi23/Detetction-Visage.git
+cd Detection-Visage
